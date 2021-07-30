@@ -10,4 +10,4 @@ add_library(graph_cuts
             LinkedBlockList.cpp
             GCoptimization.cpp)
 
-target_include_directories(graph_cuts PRIVATE ${graph_cuts_SOURCE_DIR})
+target_include_directories(graph_cuts PUBLIC ${graph_cuts_SOURCE_DIR})
